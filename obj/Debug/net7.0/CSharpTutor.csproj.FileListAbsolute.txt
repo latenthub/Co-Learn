@@ -1,0 +1,15 @@
+C:\Projects\CSharpTutor\bin\Debug\net7.0\CSharpTutor.exe
+C:\Projects\CSharpTutor\bin\Debug\net7.0\CSharpTutor.deps.json
+C:\Projects\CSharpTutor\bin\Debug\net7.0\CSharpTutor.runtimeconfig.json
+C:\Projects\CSharpTutor\bin\Debug\net7.0\CSharpTutor.dll
+C:\Projects\CSharpTutor\bin\Debug\net7.0\CSharpTutor.pdb
+C:\Projects\CSharpTutor\obj\Debug\net7.0\CSharpTutor.csproj.AssemblyReference.cache
+C:\Projects\CSharpTutor\obj\Debug\net7.0\CSharpTutor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CSharpTutor\obj\Debug\net7.0\CSharpTutor.AssemblyInfoInputs.cache
+C:\Projects\CSharpTutor\obj\Debug\net7.0\CSharpTutor.AssemblyInfo.cs
+C:\Projects\CSharpTutor\obj\Debug\net7.0\CSharpTutor.csproj.CoreCompileInputs.cache
+C:\Projects\CSharpTutor\obj\Debug\net7.0\CSharpTutor.dll
+C:\Projects\CSharpTutor\obj\Debug\net7.0\refint\CSharpTutor.dll
+C:\Projects\CSharpTutor\obj\Debug\net7.0\CSharpTutor.pdb
+C:\Projects\CSharpTutor\obj\Debug\net7.0\CSharpTutor.genruntimeconfig.cache
+C:\Projects\CSharpTutor\obj\Debug\net7.0\ref\CSharpTutor.dll
