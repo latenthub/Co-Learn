@@ -106,6 +106,7 @@
 //}
 
 using CSharpTutor.Animal;
+using CSharpTutor.Array;
 
 public partial class Program
 {
@@ -115,5 +116,9 @@ public partial class Program
         //Console.WriteLine("No of Legs" + dog.legs.ToString());
 
         Goat goat = new Goat();
+
+        ArrayLecture arrayLecture = new ArrayLecture();
+
+        Console.WriteLine(arrayLecture.GetArrayDataAge().Length.ToString());
     }
 }
