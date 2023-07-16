@@ -108,6 +108,7 @@
 using CSharpTutor.Animal;
 using CSharpTutor.Array;
 using CSharpTutor.Collection;
+using CSharpTutor.Enums;
 
 public partial class Program
 {
@@ -116,11 +117,36 @@ public partial class Program
         //Dog dog = new Dog();
         //Console.WriteLine("No of Legs" + dog.legs.ToString());
 
-        Goat goat = new Goat();
+        //Goat goat = new Goat();
 
-        ListTutor listTutor = new ListTutor();
+        //ListTutor listTutor = new ListTutor();
 
-        listTutor.ProcessList();
+        //listTutor.ProcessList();
+
+        var student1 = new Student();
+        student1.Name = "Obi";
+        student1.RegNo = "0000001";
+        student1.StudentEnum = GraceEnum.GRADE_ONE;
+
+        var student2 = new Student();
+        student2.Name = "Ada";
+        student2.RegNo = "0000002";
+        student2.StudentEnum = GraceEnum.GRADE_TWO;
+
+
+        var order1 = new OrderLine();
+        order1.OrderNumber = "0000000001";
+        order1.Status = OrderStatusEnum.ORDER_CREATED;
+
+        var order2 = new OrderLine();
+        order2.OrderNumber = "0000000002";
+        order2.Status = OrderStatusEnum.ORDER_DELETED;
+
+        Console.WriteLine("Student 1 Name: " + student1.Name + " - GRADE: " +  student1.StudentEnum);
+        Console.WriteLine("Student 2 Name: " + student2.Name + " - GRADE: " + student2.StudentEnum);
+
+        Console.WriteLine("OrderLine 1 Order Number: " + order1.OrderNumber + " - Status: " + (int)order1.Status);
+        Console.WriteLine("OrderLine 2 Order Number: " + order2.OrderNumber + " - Status: " + (int)order2.Status);
 
         //ArrayLecture arrayLecture = new ArrayLecture();
 
