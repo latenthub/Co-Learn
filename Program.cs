@@ -107,6 +107,7 @@
 
 using CSharpTutor.Animal;
 using CSharpTutor.Array;
+using CSharpTutor.Collection;
 
 public partial class Program
 {
@@ -117,8 +118,12 @@ public partial class Program
 
         Goat goat = new Goat();
 
-        ArrayLecture arrayLecture = new ArrayLecture();
+        ListTutor listTutor = new ListTutor();
 
-        Console.WriteLine(arrayLecture.GetArrayDataAge().Length.ToString());
+        listTutor.ProcessList();
+
+        //ArrayLecture arrayLecture = new ArrayLecture();
+
+        //Console.WriteLine(arrayLecture.GetArrayDataAge().Length.ToString());
     }
 }
